@@ -7,4 +7,4 @@ st.write("this is ")
 st.write("JAY MOUNDEKAR")
 
 
-st.image("/scimg.jpg", caption='Swans in the lake')
+st.image("scimg.jpg", caption='Swans in the lake')
