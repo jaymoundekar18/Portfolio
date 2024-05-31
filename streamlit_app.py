@@ -4,7 +4,7 @@ st.write("Hello!")
 
 st.write("this is ")
 
-st.write("JAY MOUNDEKAR")
+st.title("JAY MOUNDEKAR")
 
 st.echo()
 with st.echo():
