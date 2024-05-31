@@ -16,3 +16,5 @@ st.sidebar.selectbox(
 )
 
 st.sidebar.button('Submit')
+
+st.image('scimg.jpg', caption='Sunrise by the mountains')
