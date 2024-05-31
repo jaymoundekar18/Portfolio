@@ -17,4 +17,4 @@ st.sidebar.selectbox(
 
 st.sidebar.button('Submit')
 
-st.image('scimg.jpg', caption='Sunrise by the mountains', width=20, use_column_width=auto, clamp=False, channels="RGB", output_format="auto")
+st.image('scimg.jpg', caption='Sunrise by the mountains')
