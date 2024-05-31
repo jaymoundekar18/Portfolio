@@ -1,5 +1,10 @@
-
 import streamlit as st
+import requests
+from streamlit_lottie import st_lottie
+from streamlit_timeline import timeline
+import streamlit.components.v1 as components
+
+
 st.write("Hello!")
 
 st.write("this is ")
@@ -19,7 +24,11 @@ st.sidebar.button('Submit')
 
 st.image('scimg.jpg', caption='Sunrise by the mountains')
 
-
+def load_lottieurl(url: str):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
 lottie_gif = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_x17ybolp.json")
 python_lottie = load_lottieurl("https://assets6.lottiefiles.com/packages/lf20_2znxgjyt.json")
 java_lottie = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_zh6xtlj9.json")
