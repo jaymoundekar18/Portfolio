@@ -14,3 +14,5 @@ st.sidebar.selectbox(
     "How would you like to be contacted?",
     ("Email", "Home phone", "Mobile phone")
 )
+
+st.sidebar.button('Submit')
