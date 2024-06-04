@@ -19,7 +19,7 @@ st.sidebar.selectbox(
 
 st.sidebar.button('Submit')
 
-st.image('scimg.jpg', caption='Sunrise by the mountains')
+st.image('images/scimg.jpg', caption='Sunrise by the mountains')
 
 def load_lottieurl(url: str):
     r = requests.get(url)
