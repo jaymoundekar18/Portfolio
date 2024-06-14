@@ -49,7 +49,10 @@ with st.container():
     with col4:
         st_lottie(js_lottie,height=50,width=50, key="js", speed=1)
 
+
 st.subheader(":violet[Projects]")
+
+st.write("----------------------------------------------------------------------------------------------------------------------")
 
 st.write("**:orange[Sentiment Analysis on Twitter Data]**")
 st.write(":green[Analyzing and interpreting the sentiments expressed in the tweets to gain insights into public opinions, emotions, and trends. Leveraging machine learning and natural language processing techniques to perform sentiment analysis on Twitter Data. Implemented web scrapping using Python to collect the data from Twitter. Utilized a distributed event streaming platform Kafka to handle the real-time data ingestion and processing efficiently.]")
@@ -62,4 +65,43 @@ with st.container():
         st.link_button("Demo App","https://spotifyyoutubeanalysis.streamlit.app/")
     with col2:
         st.link_button("Github","https://github.com/jaymoundekar18/SentimentAnalysis")
+
+st.write("----------------------------------------------------------------------------------------------------------------------")
+
+
+
+st.write("**:orange[Student Score Prediction]**")
+st.write(":violet[Technologies Used] : :green[Python, Machine Learning]")
+st.write(":violet[Libraries] : :green[NumPy, Pandas, Matplotlib, Linear Regression] ")
+st.write(":green[Implemented a Student Score Prediction model employing Python and the Scikit-Learn machine-learning module. Using the Supervised Learning technique, the model was trained on a dataset encompassing study hours and corresponding scores. Enabling accurate prediction and aiding educators in understanding the potential academic outcomes for students based on their study habits.]")
+
+
+with st.container():
+    
+    col1, col2= st.columns([1, 1])
+    with col1:
+        st.link_button("Demo App","https://studentscorepredicition.streamlit.app/")
+    with col2:
+        st.link_button("Github","https://github.com/jaymoundekar18/Project")
+
+st.write("----------------------------------------------------------------------------------------------------------------------")
+
+
+
+st.write("**:orange[Analyzing Spotify and YouTube Songs Using Python & MySQL]**")
+st.write(":violet[Technologies Used] : :green[Python, MySQL]")
+st.write(":violet[Libraries] : :green[NumPy, Pandas] ")
+st.write(":green[Utilized Python to ensure data cleanliness for a more effective analysis process. Crafted SQL queries to derive insights from the dataset, focusing on artist information, album categorization, and platform usage patterns. Further concluded the artist to compile a professional report with the higher popularity and identified which of their songs achieved the most streams on each platform.]")
+
+
+with st.container():
+    
+    col1, col2= st.columns([1, 1])
+    with col1:
+        st.link_button("Demo App","https://spotifyyoutubeanalysis.streamlit.app/")
+    with col2:
+        st.link_button("Github","https://github.com/jaymoundekar18/Analyzing-Spotify-and-YouTube-Songs-Using-Python-MySQL")
+
+st.write("----------------------------------------------------------------------------------------------------------------------")
+
 
