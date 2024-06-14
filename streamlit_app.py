@@ -54,4 +54,12 @@ st.subheader(":violet[Projects]")
 st.write("**:orange[Sentiment Analysis on Twitter Data]**")
 st.write(":green[Analyzing and interpreting the sentiments expressed in the tweets to gain insights into public opinions, emotions, and trends. Leveraging machine learning and natural language processing techniques to perform sentiment analysis on Twitter Data. Implemented web scrapping using Python to collect the data from Twitter. Utilized a distributed event streaming platform Kafka to handle the real-time data ingestion and processing efficiently.]")
 
-st.link_button("Demo ","https://spotifyyoutubeanalysis.streamlit.app/")
+
+with st.container():
+    
+    col1, col2= st.columns([1, 1])
+    with col1:
+        st.link_button("Demo App","https://spotifyyoutubeanalysis.streamlit.app/")
+    with col2:
+        st.link_button("Github","https://github.com/jaymoundekar18/SentimentAnalysis")
+
