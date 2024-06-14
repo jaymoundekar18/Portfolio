@@ -2,15 +2,7 @@ import streamlit as st
 import requests
 from streamlit_lottie import st_lottie
 
-st.write("Hello!")
-
-st.write("this is ")
-
 st.title("JAY MOUNDEKAR")
-
-st.echo()
-with st.echo():
-  st.write('Code will be executed and printed')
 
 st.sidebar.selectbox(
     "How would you like to be contacted?",
