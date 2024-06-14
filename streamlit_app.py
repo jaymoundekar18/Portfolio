@@ -11,7 +11,6 @@ st.sidebar.selectbox(
 
 st.sidebar.button('Submit')
 
-st.image('images/scimg.jpg', caption='Sunrise by the mountains')
 
 def load_lottieurl(url: str):
     r = requests.get(url)
@@ -55,6 +54,9 @@ st.subheader(":violet[Projects]")
 st.write("----------------------------------------------------------------------------------------------------------------------")
 
 st.write("**:orange[Sentiment Analysis on Twitter Data]**")
+st.image('images/sentiment.jpg', width=200)
+st.write(":violet[Technologies Used] : :green[Python, Deep Learning, RoBERTa, Kafka]")
+st.write(":violet[Libraries] : :green[Pandas, Matplotlib, NLTK, Deep Translator, Streamlit] ")
 st.write(":green[Analyzing and interpreting the sentiments expressed in the tweets to gain insights into public opinions, emotions, and trends. Leveraging machine learning and natural language processing techniques to perform sentiment analysis on Twitter Data. Implemented web scrapping using Python to collect the data from Twitter. Utilized a distributed event streaming platform Kafka to handle the real-time data ingestion and processing efficiently.]")
 
 
