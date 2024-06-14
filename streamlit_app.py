@@ -73,7 +73,7 @@ st.write("----------------------------------------------------------------------
 
 
 st.write("**:orange[Student Score Prediction]**")
-st.image('images/book.jpg', width=200)
+st.image('images/book.jpeg', width=200)
 st.write(":violet[Technologies Used] : :green[Python, Machine Learning]")
 st.write(":violet[Libraries] : :green[NumPy, Pandas, Matplotlib, Linear Regression] ")
 st.write(":green[Implemented a Student Score Prediction model employing Python and the Scikit-Learn machine-learning module. Using the Supervised Learning technique, the model was trained on a dataset encompassing study hours and corresponding scores. Enabling accurate prediction and aiding educators in understanding the potential academic outcomes for students based on their study habits.]")
@@ -92,7 +92,7 @@ st.write("----------------------------------------------------------------------
 
 
 st.write("**:orange[Analyzing Spotify and YouTube Songs Using Python & MySQL]**")
-st.image('images/spotify.jpg', width=200)
+st.image('images/Spotify.jpeg', width=200)
 st.write(":violet[Technologies Used] : :green[Python, MySQL]")
 st.write(":violet[Libraries] : :green[NumPy, Pandas] ")
 st.write(":green[Utilized Python to ensure data cleanliness for a more effective analysis process. Crafted SQL queries to derive insights from the dataset, focusing on artist information, album categorization, and platform usage patterns. Further concluded the artist to compile a professional report with the higher popularity and identified which of their songs achieved the most streams on each platform.]")
