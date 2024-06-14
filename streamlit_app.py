@@ -108,4 +108,20 @@ with st.container():
 
 st.write("----------------------------------------------------------------------------------------------------------------------")
 
+st.write("**:orange[Face Analysis]**")
+st.image("images/face.jpg", width=200)
+st.write(":violet[Technologies Used] : :green[Python]")
+st.write(":violet[Libraries] : :green[OpenCV,DeepFace, MTCNN, Streamlit] ")
+st.write(":green[Utilized Python to ensure data cleanliness for a more effective analysis process. Crafted SQL queries to derive insights from the dataset, focusing on artist information, album categorization, and platform usage patterns. Further concluded the artist to compile a professional report with the higher popularity and identified which of their songs achieved the most streams on each platform.]")
+
+
+with st.container():
+    
+    col1, col2= st.columns([1, 1])
+    with col1:
+        st.link_button("Demo App","https://faceanalysisdrx.streamlit.app/")
+    with col2:
+        st.link_button("Github","https://github.com/jaymoundekar18/Face_Analysis")
+
+st.write("----------------------------------------------------------------------------------------------------------------------")
 
